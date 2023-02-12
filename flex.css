@@ -1,0 +1,100 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #73dab2;
+}
+
+.flex {
+    margin: 10px;
+    display: flex;
+}
+
+.flexOne .square {
+    margin: 5px;
+}
+
+
+.flexTwo {
+    flex-direction: column;
+}
+
+.flexTwo .square {
+    margin: 2px;
+}
+
+
+.flexThree {
+    flex-direction: row-reverse;
+
+}
+
+.flexThree .square {
+    margin: 2px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.flexFour {
+    flex-wrap: wrap;
+    width: 350px;
+
+}
+
+.flexFour .square{
+    background-color: #3d8b6d;
+    margin: 5px;
+}
+
+
+.flexFive {
+    width: 350px;
+}
+
+
+.flexFive .item {
+    background-color: #0b6643;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
+
+.flexFive #grow {
+    flex-grow: 2;
+}
+
+
+.flexSix {
+    height: 400px;
+    width: 500px;
+    background-color:  #f1f1f1;
+    flex-direction: column;
+}
+
+
+
+.flexSix .one .square{
+    justify-content: space-around;
+}
+
+.flexSix .two .square{
+    justify-content: space-between;
+    background-color: #d6d6d6;
+   
+}
+.flexSix .three .square{
+    justify-content: space-evenly;
+}
+
+/* @media (max-width: 480px){
+    .flexOne {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flexThree {
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+} */
