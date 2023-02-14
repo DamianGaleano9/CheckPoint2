@@ -131,6 +131,44 @@
     flex-direction: column;
 }
 
+
+.flexEight {
+    height: 400px;
+    background-color: #eeeeee;
+    width: 300px;
+}
+
+
+.flexEight {
+    display: flex;
+    height: 400px;
+    background-color: #eeeeee;
+    width: 300px;
+}
+
+
+.flexEight .one {
+    display: flex;
+    align-items: center;
+}
+
+.flexEight .two {
+    display: flex;
+    align-items: flex-end;
+}
+
+.flexEight .three{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+
+
 /* @media (max-width: 480px){
     .flexOne {
         flex-direction: column;
