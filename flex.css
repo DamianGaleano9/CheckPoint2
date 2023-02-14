@@ -42,7 +42,7 @@
 
 }
 
-.flexFour .square{
+.flexFour .square {
     background-color: #3d8b6d;
     margin: 5px;
 }
@@ -70,7 +70,7 @@
     display: flex;
     height: 400px;
     width: 500px;
-    background-color:  #f1f1f1;
+    background-color: #f1f1f1;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -79,7 +79,7 @@
 .flexSix .one {
     display: flex;
     justify-content: space-around;
-} 
+}
 
 .flexSix .two {
     display: flex;
@@ -87,11 +87,49 @@
     background-color: #d6d6d6;
 
 }
+
 .flexSix .three {
     display: flex;
 
     justify-content: space-evenly;
-} 
+}
+
+
+.flexSeven {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+
+}
+
+
+.flexSeven .one {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flexSeven .two {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+
+.flexSeven .three {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.flexSeven .four {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 
 /* @media (max-width: 480px){
     .flexOne {
