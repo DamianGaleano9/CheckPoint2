@@ -25,9 +25,9 @@
 
 
 .flexThree {
+    display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-start;
-
+    justify-content: flex-end;
 }
 
 .flexThree .square {
@@ -115,6 +115,7 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    background-color: #d6d6d6;
 
 }
 
@@ -129,6 +130,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    background-color: #d6d6d6;
+
 }
 
 
@@ -155,11 +158,26 @@
 .flexEight .two {
     display: flex;
     align-items: flex-end;
+
 }
 
-.flexEight .three{
+.flexEight .three {
     display: flex;
     align-items: flex-start;
+}
+
+
+
+.flexNine {
+    width: 450px;
+    height: 250px;
+    background-color: #eeeeee;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.flexNine #special {
+    align-self: flex-end;
 }
 
 
